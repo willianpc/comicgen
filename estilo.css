@@ -1,0 +1,125 @@
+body{
+	font-family:arial, helvetica;
+	background-color: rgb(65, 60, 60);
+	color:white;
+	font-size:12px;
+	text-shadow: 1px 1px 0 black;
+	margin:0px;
+}
+
+a{
+	color:orange;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#container{
+	width:1050px;
+	height:650px;
+	text-align:center;
+	overflow:hidden;
+	margin-left:100px;
+}
+
+#menuContainer{
+	width:220px;
+	height: 520px;
+	float:left;
+}
+
+#lib{
+	padding-top:5px;
+	padding-left:5px;
+	width:210px;
+	height: 380px;
+	overflow:auto;
+	background-color:rgb(130, 120, 120);
+}
+
+#cscreen{
+	text-align:center;
+	width:590px;
+	height: 490px;
+	float:left;
+}
+
+#cscreen canvas{
+	border:7px solid rgb(33, 30, 30);
+	margin-left:2px;
+	box-shadow:3px 3px 10px black;
+}
+
+.mini{
+	background-color:white;
+	width:50px;
+	height:50px;
+	padding:2px;
+	border:2px solid rgb(65, 60, 60);
+	margin:2px;
+	overflow:hidden;
+	float:left;
+}
+
+.mini:hover{
+	background-color:orange;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.rc {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.rcBottom {
+	-webkit-border-radius: 0px 0px 4px 4px;
+	-webkit-border-radius: 0px 0px 4px 4px;
+	border-radius: 0px 0px 4px 4px;
+}
+
+#hiddenObjs{
+	display:none;
+}
+
+.textTool{
+	text-align:center;
+	font-family:'times new roman', times;
+	font-size:40px;
+	color:black;
+}
+
+.instructions{
+	text-align: left;
+	background-color:rgb(164, 158, 158);
+	width:202px;
+	height:100px;
+	padding:6px;
+	margin:2px;
+	margin-top:6px;
+	color:black;
+	text-shadow: 1px 1px 0 silver;
+}
+
+.instructions ul{
+	list-style:none;
+	padding-left:5px;
+}
+
+#logo{
+	text-align:left;
+	font-size:29px;
+	color: orange /*rgb(130, 120, 120)*/;
+	text-shadow:0px 0px 8px black;
+	padding:4px;
+	font-weight:bold;
+}
+
+#toolbar{
+	text-align:left;
+	padding:3px;
+	width: 950px;
+	height:50px;
+	background-color:rgba(0, 0, 0, 0.5);
+	margin-bottom:10px;
+}

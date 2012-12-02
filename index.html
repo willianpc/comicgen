@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html manifest="comicgen.appcache">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="estilo.css" type="text/css" rel="stylesheet"/>
+<title>comicgen</title>
+
+<style type="text/css">
+</style>
+</head>
+<body>
+
+<center>
+<div id="toolbar" class="rcBottom">
+	<div>TOOLBAR</div>
+	<a href="javascript:cg.saveImage();">Save image</a> |
+	<a href="javascript:cg.setScreen(800, 600)">800x600</a> | 
+	<a href="javascript:cg.setScreen(640, 480)">640x480</a> | 
+	<a href="javascript:cg.setScreen(320, 240)">320x240</a>
+</div>
+</center>
+
+<div id="container">
+	<div id="menuContainer">
+		<div id="logo">comicgen</div>
+		<div id="lib" class="rc">
+			<div><input type="text" id="newText" onkeypress="cg.createTextFromInput(event)"/></div>
+		</div>
+	</div>
+	
+	<div id="cscreen">
+		<canvas class="rc" id="c" width="800" height="600">
+			your browser does not support HTML5. please use a newer browser version
+		</canvas>
+	</div>
+</div>
+
+<div id="hiddenObjs">
+	<div id="textTool" class="rc mini textTool" title="Adicionar texto" onclick="cg.createText();">T</div>
+	
+	<div id="instructs" class="rc instructions">
+		<b>Instructions</b>
+		<ul>
+			<li><b>ArrowDown:</b> zoom out</li>
+			<li><b>ArrowUp:</b> zoom in</li>
+			<li><b>Left/right:</b> horizontal flip</li>
+			<li><b>Del:</b> delete current object</li>
+		</ul>
+
+	</div>
+</div>
+
+<script type="text/javascript" src="jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="ragaboom.min.js"></script>
+<script type="text/javascript" src="comicgen.js"></script>
+<script type="text/javascript">
+
+</script>
+
+</body>
+</html>
