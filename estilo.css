@@ -121,5 +121,5 @@ a{
 	width: 950px;
 	height:50px;
 	background-color:rgba(0, 0, 0, 0.5);
-	margin-bottom:10px;
+	margin: 0 auto 10px auto;
 }
